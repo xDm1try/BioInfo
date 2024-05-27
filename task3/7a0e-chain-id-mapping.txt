@@ -1,0 +1,6 @@
+    New chain ID            Original chain ID
+
+7a0e-pdb-bundle1.pdb:
+           A                       HHH
+           B                       III
+           C                       LLL
