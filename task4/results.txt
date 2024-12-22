@@ -1,0 +1,8 @@
+SRR11413027.html
+SRR11413027_hg38.sam
+SRR11413027_hg38.bam
+SRR11413027_hg38.txt
+SRR11413027_hg38-quality_check_passed.txt
+
+SRR11413027_hg38.sorted.bam
+SRR11413027_hg38.vcf

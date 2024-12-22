@@ -1,0 +1,37 @@
+--2024-12-23 05:11:29--  https://github.com/ccsb-scripps/AutoDock-Vina/releases/download/v1.2.5/vina_1.2.5_linux_x86_64
+Resolving github.com (github.com)... 140.82.121.3
+Connecting to github.com (github.com)|140.82.121.3|:443... connected.
+HTTP request sent, awaiting response... 302 Found
+Location: https://objects.githubusercontent.com/github-production-release-asset-2e65be/258054635/b208f84f-df05-4575-9991-2190698c7914?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=releaseassetproduction%2F20241222%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20241222T221130Z&X-Amz-Expires=300&X-Amz-Signature=96f4a3725a01972edafe0a13edc88cc7ede051ddc928cf441e4082c907e190c0&X-Amz-SignedHeaders=host&response-content-disposition=attachment%3B%20filename%3Dvina_1.2.5_linux_x86_64&response-content-type=application%2Foctet-stream [following]
+--2024-12-23 05:11:30--  https://objects.githubusercontent.com/github-production-release-asset-2e65be/258054635/b208f84f-df05-4575-9991-2190698c7914?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=releaseassetproduction%2F20241222%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20241222T221130Z&X-Amz-Expires=300&X-Amz-Signature=96f4a3725a01972edafe0a13edc88cc7ede051ddc928cf441e4082c907e190c0&X-Amz-SignedHeaders=host&response-content-disposition=attachment%3B%20filename%3Dvina_1.2.5_linux_x86_64&response-content-type=application%2Foctet-stream
+Resolving objects.githubusercontent.com (objects.githubusercontent.com)... 185.199.111.133, 185.199.108.133, 185.199.109.133, ...
+Connecting to objects.githubusercontent.com (objects.githubusercontent.com)|185.199.111.133|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 4089576 (3.9M) [application/octet-stream]
+Saving to: ‘vina’
+
+vina                  0%[                    ]       0  --.-KB/s               vina                  5%[>                   ] 204.69K   949KB/s               vina                 31%[=====>              ]   1.21M  2.83MB/s               vina                 56%[==========>         ]   2.20M  3.42MB/s               vina                 92%[=================>  ]   3.61M  3.95MB/s               vina                100%[===================>]   3.90M  3.65MB/s    in 1.1s    
+
+2024-12-23 05:11:32 (3.65 MB/s) - ‘vina’ saved [4089576/4089576]
+
+Collecting py3Dmol==2.0.3
+  Downloading py3Dmol-2.0.3-py2.py3-none-any.whl.metadata (2.1 kB)
+Downloading py3Dmol-2.0.3-py2.py3-none-any.whl (12 kB)
+Installing collected packages: py3Dmol
+Successfully installed py3Dmol-2.0.3
+[31mERROR: Could not find a version that satisfies the requirement rdkit-pypi==2022.9.5 (from versions: none)[0m[31m
+[0m[31mERROR: No matching distribution found for rdkit-pypi==2022.9.5[0m[31m
+[0mCollecting meeko==0.5.0
+  Downloading meeko-0.5.0-py3-none-any.whl.metadata (13 kB)
+Collecting numpy>=1.18 (from meeko==0.5.0)
+  Downloading numpy-2.2.1-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (62 kB)
+Downloading meeko-0.5.0-py3-none-any.whl (144 kB)
+Downloading numpy-2.2.1-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (16.1 MB)
+[?25l   [38;5;237m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m0.0/16.1 MB[0m [31m?[0m eta [36m-:--:--[0m[2K   [38;2;249;38;114m━━[0m[38;2;249;38;114m╸[0m[38;5;237m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m1.0/16.1 MB[0m [31m7.6 MB/s[0m eta [36m0:00:02[0m[2K   [38;2;249;38;114m━━━━━[0m[38;5;237m╺[0m[38;5;237m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m2.1/16.1 MB[0m [31m8.9 MB/s[0m eta [36m0:00:02[0m[2K   [38;2;249;38;114m━━━━━━━━━━━[0m[38;2;249;38;114m╸[0m[38;5;237m━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m4.7/16.1 MB[0m [31m8.7 MB/s[0m eta [36m0:00:02[0m[2K   [38;2;249;38;114m━━━━━━━━━━━━━[0m[38;2;249;38;114m╸[0m[38;5;237m━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m5.5/16.1 MB[0m [31m7.2 MB/s[0m eta [36m0:00:02[0m[2K   [38;2;249;38;114m━━━━━━━━━━━━━━━━━━━━[0m[38;2;249;38;114m╸[0m[38;5;237m━━━━━━━━━━━━━━━━━━━[0m [32m8.4/16.1 MB[0m [31m8.9 MB/s[0m eta [36m0:00:01[0m[2K   [38;2;249;38;114m━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[38;5;237m╺[0m[38;5;237m━━━━━━━━━━━━━[0m [32m10.5/16.1 MB[0m [31m9.1 MB/s[0m eta [36m0:00:01[0m[2K   [38;2;249;38;114m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[38;2;249;38;114m╸[0m[38;5;237m━━━━━━━━━[0m [32m12.3/16.1 MB[0m [31m9.1 MB/s[0m eta [36m0:00:01[0m[2K   [38;2;249;38;114m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[38;2;249;38;114m╸[0m[38;5;237m━━━━[0m [32m14.4/16.1 MB[0m [31m9.3 MB/s[0m eta [36m0:00:01[0m[2K   [38;2;114;156;31m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m16.1/16.1 MB[0m [31m9.2 MB/s[0m eta [36m0:00:00[0m
+[?25hInstalling collected packages: numpy, meeko
+Successfully installed meeko-0.5.0 numpy-2.2.1
+Collecting condacolab==0.1.7
+  Downloading condacolab-0.1.7-py3-none-any.whl.metadata (5.5 kB)
+Downloading condacolab-0.1.7-py3-none-any.whl (7.2 kB)
+Installing collected packages: condacolab
+Successfully installed condacolab-0.1.7
